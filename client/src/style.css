@@ -1,0 +1,39 @@
+.card{
+  padding: 1em;
+  margin: 1.1em;
+}
+.card-title{
+  text-align: center;
+}
+.recharts-wrapper{
+  margin: auto;
+}
+.graph-col{
+  width: 120px;
+}
+.row{
+  padding-bottom: 20px ;
+}
+.toast{
+  margin-bottom: 20px;
+}
+.color-label{
+  margin: auto;
+  text-align: left;
+  padding-left: 0px;
+}
+.form-control-color{
+  font-size: unset;
+  width: 100%;
+}
+.tst-xl{
+  width: 100%;
+}
+.entity-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.entity-wrap .toast{
+  padding: 5px;
+}
