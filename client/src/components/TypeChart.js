@@ -1,5 +1,5 @@
 import {Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis} from "recharts";
-import {useContext} from "react";
+import React ,{useContext} from "react";
 import {DataContext} from "../DataContext";
 
 function TypeChart() {

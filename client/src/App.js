@@ -6,7 +6,7 @@ import TypeChart from "./components/TypeChart";
 import ConfidenceRelevanceChart from "./components/ConfidenceRelevanceChart";
 import TextView from "./components/TextView";
 import {DataContext} from "./DataContext";
-import {useState} from "react";
+import React,{useState} from "react";
 import MatchedEntities from "./components/MatchedEntities";
 
 

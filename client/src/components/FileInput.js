@@ -1,7 +1,7 @@
 import {Button, Form, Row, Col} from "react-bootstrap";
 import {useContext, useState} from "react";
 import {DataContext} from "../DataContext";
-
+import React  from 'react';
 function FileInput() {
 
 

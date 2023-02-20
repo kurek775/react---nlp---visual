@@ -2,7 +2,7 @@ import {CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis} from "rec
 import {useContext, useState} from "react";
 import {DataContext} from "../DataContext";
 import {Form, Row, Col, Toast} from "react-bootstrap";
-
+import React  from 'react';
 function ConfidenceRelevanceChart() {
     const {data, setData} = useContext(DataContext);
     const [filteredData, setFilteredData] = useState(100);

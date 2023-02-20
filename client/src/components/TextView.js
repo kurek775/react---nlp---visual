@@ -1,7 +1,7 @@
 import {useContext} from "react";
 import {DataContext} from "../DataContext";
 import DOMParserReact, {parse} from 'dom-parser-react'
-
+import React  from 'react';
 function TextView() {
     const {text, setText} = useContext(DataContext);
     const {data, setData} = useContext(DataContext);
